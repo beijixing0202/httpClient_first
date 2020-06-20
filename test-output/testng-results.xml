@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="httpClient_first" duration-ms="4339" started-at="2020-06-19T19:41:53 CST" finished-at="2020-06-19T19:41:57 CST">
+    <groups>
+    </groups>
+    <test name="httpClient_first" duration-ms="4339" started-at="2020-06-19T19:41:53 CST" finished-at="2020-06-19T19:41:57 CST">
+      <class name="com.bill99.test.TriggerTest">
+        <test-method status="PASS" signature="postingTodayTrigger()[pri:0, instance:com.bill99.test.TriggerTest@5b464ce8]" name="postingTodayTrigger" duration-ms="1930" started-at="2020-06-19T19:41:53 CST" finished-at="2020-06-19T19:41:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postingTodayTrigger -->
+        <test-method status="PASS" signature="autoSettleTrigger()[pri:0, instance:com.bill99.test.TriggerTest@5b464ce8]" name="autoSettleTrigger" duration-ms="1277" started-at="2020-06-19T19:41:55 CST" finished-at="2020-06-19T19:41:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSettleTrigger -->
+        <test-method status="PASS" signature="refundOrderNotice()[pri:0, instance:com.bill99.test.TriggerTest@5b464ce8]" name="refundOrderNotice" duration-ms="1100" started-at="2020-06-19T19:41:56 CST" finished-at="2020-06-19T19:41:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refundOrderNotice -->
+      </class> <!-- com.bill99.test.TriggerTest -->
+    </test> <!-- httpClient_first -->
+  </suite> <!-- httpClient_first -->
+</testng-results>

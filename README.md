@@ -1,0 +1,1 @@
+说明：该Demo是使用ant+maven+jenkins+testNG实现自动化脚本的持续集成

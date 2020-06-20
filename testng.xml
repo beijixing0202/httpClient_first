@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="httpClient_first">
+    <test verbose="2" preserve-order="true" name="httpClient_first">
+        <classes>
+            <class name="com.bill99.test.TriggerTest">
+                <methods>
+                    <include name="postingTodayTrigger"/>
+                    <include name="autoSettleTrigger"/>
+                    <include name="refundOrderNotice"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

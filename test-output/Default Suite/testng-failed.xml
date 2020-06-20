@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="httpClient_first(failed)">
+    <classes>
+      <class name="com.bill99.test.HttpClientDemo">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.bill99.test.HttpClientDemo -->
+    </classes>
+  </test> <!-- httpClient_first(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [httpClient_first]">
+  <test verbose="2" name="httpClient_first">
+    <classes>
+      <class name="com.bill99.test.HttpClientDemo">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.bill99.test.HttpClientDemo -->
+      <class name="com.bill99.test.TriggerTest">
+        <methods>
+          <include name="calculateTrigger"/>
+          <include name="realTimeTrigger"/>
+        </methods>
+      </class> <!-- com.bill99.test.TriggerTest -->
+    </classes>
+  </test> <!-- httpClient_first -->
+</suite> <!-- Failed suite [httpClient_first] -->
